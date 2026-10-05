@@ -1,0 +1,37 @@
+ACADEMIA VIDA — EDIÇÃO COM EFEITOS VISUAIS
+
+COMO ABRIR
+1. Extraia o ZIP (botão direito > Extrair tudo).
+2. Abra a pasta Academia-Vida.
+3. Dê dois cliques em index.html.
+
+O site, vídeo, fotos e fontes estão incluídos e funcionam sem CDN.
+Role a página para ver a abertura fixa, zoom, transição de seções,
+textos e cartões em movimento. No computador, mova o mouse sobre
+os botões e a palavra VIDA no rodapé.
+
+Se seu sistema estiver configurado para reduzir animações, os efeitos
+serão reduzidos automaticamente. O botão no canto inferior esquerdo
+permite pausar as animações. No celular não há efeitos de mouse.
+O vídeo é ilustrativo; substitua pela filmagem da academia quando disponível.
+
+EDITAR NO VS CODE
+index.html: textos e estrutura.
+styles.css: aparência e regras responsivas.
+app.js: menu, abas, FAQ e contato.
+motion.js: efeitos de rolagem, ponteiro e vídeo.
+assets/: fotos, logo, fontes e vídeo local.
+
+SERVIDOR LOCAL (OPCIONAL)
+Com Python instalado, abra o terminal nesta pasta e execute:
+python -m http.server 8080
+Acesse http://localhost:8080
+O servidor permite testar o clipboard quando o navegador restringe
+esse recurso para arquivos abertos diretamente.
+
+HOSPEDAR
+Envie os arquivos da pasta Academia-Vida para qualquer hospedagem
+estática. Não é necessário npm install, build ou banco de dados.
+
+O contato abre o Instagram e não envia mensagens automaticamente.
+O projeto não inclui pagamentos, gestão ou área do aluno.
